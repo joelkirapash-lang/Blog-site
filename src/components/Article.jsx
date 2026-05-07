@@ -1,6 +1,4 @@
-// Article component - displays a single blog post
-// Connected to: ArticleList (parent)
-// Props received: title (string), date (string), preview (string)
+import React from "react";
 
 function Article({ title, date, preview }) {
   return (

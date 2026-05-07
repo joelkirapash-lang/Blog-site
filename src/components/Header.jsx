@@ -1,6 +1,4 @@
-// Header component - displays the blog name
-// Connected to: App (parent)
-// Props received: name (string)
+import React from "react";
 
 function Header({ name }) {
   return (

@@ -1,7 +1,4 @@
-// ArticleList component - renders all Article components
-// Connected to: App (parent), Article (child)
-// Props received: posts (array)
-
+import React from "react";
 import Article from "./Article";
 
 function ArticleList({ posts }) {

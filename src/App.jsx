@@ -1,6 +1,4 @@
-// App component - root component, passes blog data as props
-// Children: Header, About, ArticleList
-
+import React from "react";
 import blog from "./blog";
 import Header from "./components/Header";
 import About from "./components/About";

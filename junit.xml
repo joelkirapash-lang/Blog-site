@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="2" failures="2" errors="0" time="0.011290062">
+    <testsuite name="src/App.test.jsx" timestamp="2026-05-07T20:26:32.408Z" hostname="kirapash-joel-HP-EliteBook-Folio-9470m" tests="2" failures="2" errors="0" skipped="0" time="0.011290062">
+        <testcase classname="src/App.test.jsx" name="renders blog name in header" time="0.00777631">
+            <failure message="React is not defined" type="ReferenceError">
+ReferenceError: React is not defined
+ ❯ src/App.test.jsx:7:10
+            </failure>
+        </testcase>
+        <testcase classname="src/App.test.jsx" name="renders articles" time="0.000827201">
+            <failure message="React is not defined" type="ReferenceError">
+ReferenceError: React is not defined
+ ❯ src/App.test.jsx:13:10
+            </failure>
+        </testcase>
+    </testsuite>
+</testsuites>

@@ -1,6 +1,4 @@
-// About component - displays blog logo and description
-// Connected to: App (parent)
-// Props received: image (string URL), about (string)
+import React from "react";
 
 function About({ image, about }) {
   return (
