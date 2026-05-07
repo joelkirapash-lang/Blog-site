@@ -8,7 +8,14 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "vitest run --reporter=junit --outputFile=./junit.xml"
+    "test": "vitest run --environment jsdom --reporter=junit --outputFile=./junit.xml"
+  },
+  "vitest": {
+    "environment": "jsdom",
+    "globals": true,
+    "setupFiles": [
+      "./src/setupTests.js"
+    ]
   },
   "dependencies": {
     "react": "^19.2.5",
